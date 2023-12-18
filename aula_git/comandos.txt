@@ -1,0 +1,9 @@
+git init
+git config user.name - incluir nome
+git config --global user.name - incluir nome em todos os projetos
+git config user.email - incluir e-mail
+git git config --global user.name - incluir e-mail em todos os projetos
+git add --all ou git add .
+git commit - m "descrição do commit"
+git branch NOME-DA-BRANCH
+git checkout NOME-DA-BRANCH

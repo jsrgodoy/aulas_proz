@@ -1,0 +1,26 @@
+body{
+    background-color: antiquewhite;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+
+    }
+ul {
+    display: flex;
+    list-style: none;
+   gap: 30px;
+}
+div{
+    display: flex;
+   gap: 30px;
+}
+
+footer{   
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+
+}

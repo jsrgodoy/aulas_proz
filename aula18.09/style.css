@@ -1,0 +1,85 @@
+h1 {
+
+    color: rgba(224, 6, 244, 0.582);
+  
+  }
+  
+   
+  
+  /* body {
+  
+    display: flex;
+  
+  } */
+  
+   
+  
+  aside {
+  
+    display: flex;
+  
+    flex-wrap: wrap;
+  
+  }
+  
+   
+  
+  div {
+  
+    background-color: rgb(72, 207, 150);
+  
+    padding: 65px;
+  
+    border: 8px solid rgba(217, 12, 196, 0.829);
+  
+    margin: 34px;
+  
+   
+  
+  }
+  
+   
+  
+  .caixa {
+  
+    background-color: aqua;
+  
+  }
+  
+   
+  
+  #ultima-caixa {
+  
+    background-color: rgb(216, 225, 53);
+    border: 8px solid rgba(10, 7, 173, 0.829);
+  
+  
+  }
+  
+   
+  
+  p {
+  
+    background-color: rgb(133, 142, 70);
+  
+  }
+  
+   
+  
+  a {
+  
+    background-color: white;
+  
+  }
+  
+   
+  
+  .caixa-do-meio {
+  
+    padding-top: 20px 40px 60px 80px;
+  
+    padding-right: 80px 60px 40px 20 px;
+  
+    border: 20px solid rgb(13, 180, 226)
+  
+  }

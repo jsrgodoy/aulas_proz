@@ -1,0 +1,2 @@
+frase escrita antes do merge. teste para ver se conseguir fazer o git pull
+Frase escrita na nova branch
