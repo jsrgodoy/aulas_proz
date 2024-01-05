@@ -1,0 +1,14 @@
+body {
+  background-color: #d0b2dd;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  margin: 1rem;
+}
+button {
+  margin: 1rem;
+  width: 10rem;
+  border-radius: 8px;
+}
