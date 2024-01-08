@@ -12,3 +12,9 @@ button {
   width: 10rem;
   border-radius: 8px;
 }
+.postagem {
+  background-color: #be8ed2;
+  width: 25rem;
+  padding: 0.6rem;
+  margin: 0.6rem;
+}
