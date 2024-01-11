@@ -15,10 +15,115 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <script defer src="./script.js"></script>
+    <title>Bootstrap</title>
   </head>
   <body>
-    <h1 class="bg-primary-subtle">Bootstrap</h1>
-    <p>Primeiros passos com Bootstrap</p>
+    <nav class="navbar navbar-expand-sm bg-primary">
+      <div class="container">
+        <a href="/" class="navbar-brand">Proz</a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navegacaoCollapsavel"
+        >
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+        <div
+          class="navbar-collapse collapse justify-content-center"
+          id="navegacaoCollapsavel"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#"></a>Sobre</li>
+            <li class="nav-item"><a class="nav-link" href="#"></a>Blog</li>
+            <li class="nav-item"><a class="nav-link" href="#"></a>Cursos</li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <h1 class="">Bootstrap</h1>
+      <p>Primeiros passos com Bootstrap</p>
+
+      <div class="row row-cols-md-2 row-cols-lg-3">
+        <div class="col-12 col-md-12 col-lg-8">
+          <section>
+            <h3>Primeira Notícia</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+              sapiente asperiores commodi ducimus velit, sint facere, similique
+              nulla eos eum aliquam veritatis! Doloremque blanditiis molestias
+              placeat cupiditate accusantium deleniti officiis?
+            </p>
+          </section>
+        </div>
+        <div class="col-12">
+          <section>
+            <h3>Segunda Notícia</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+              sapiente asperiores commodi ducimus velit, sint facere, similique
+              nulla eos eum aliquam veritatis! Doloremque blanditiis molestias
+              placeat cupiditate accusantium deleniti officiis?
+            </p>
+          </section>
+        </div>
+        <div class="col-12">
+          <section>
+            <h3>Terceira Notícia</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+              sapiente asperiores commodi ducimus velit, sint facere, similique
+              nulla eos eum aliquam veritatis! Doloremque blanditiis molestias
+              placeat cupiditate accusantium deleniti officiis?
+            </p>
+          </section>
+        </div>
+        <div class="col-12">
+          <section>
+            <h3>Quarta Notícia</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+              sapiente asperiores commodi ducimus velit, sint facere, similique
+              nulla eos eum aliquam veritatis! Doloremque blanditiis molestias
+              placeat cupiditate accusantium deleniti officiis?
+            </p>
+          </section>
+        </div>
+        <div class="col-12">
+          <section>
+            <h3>Quinta Notícia</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+              sapiente asperiores commodi ducimus velit, sint facere, similique
+              nulla eos eum aliquam veritatis! Doloremque blanditiis molestias
+              placeat cupiditate accusantium deleniti officiis?
+            </p>
+          </section>
+        </div>
+      </div>
+      <p></p>
+      <button class="btn btn-primary">Clique aqui</button>
+      <a href="#" class="btn btn-warning btn-sm">Blog</a>
+      <p></p>
+      <label for="input-email">Email:</label>
+      <input type="email" name="email" id="input-email" />
+      <button class="btn btn-success" id="btn-email">Enviar</button>
+      <p></p>
+
+      <div class="dropdown">
+        <button
+          class="btn btn-primary dropdown-toggle"
+          data-bs-toggle="dropdown"
+        >
+          dropdown
+        </button>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">Item 01</li>
+          <li class="dropdown-item">Item 02</li>
+          <li class="dropdown-item">Item 03</li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
